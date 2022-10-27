@@ -1,0 +1,257 @@
+.benefits {
+  padding: 70px 0;
+  background: #F9F9F9;
+}
+
+.benefits__title {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 41px;
+  text-align: center;
+  color: #383A4C;
+  margin-bottom: 25px;
+}
+
+.benefits__subtitle {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #383A4C;
+  margin-bottom: 35px;
+}
+
+.benefits__subtitle::before,
+.benefits__subtitle::after {
+  content: '';
+  width: 43px;
+  height: 2px;
+  background: #383A4C;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 23px;
+}
+
+.benefits__text {
+  width: 724px;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #383A4C;
+  margin-bottom: 50px;
+}
+
+.benefits__block {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  max-width: 934px;
+  margin: 0 auto;
+}
+
+.benefits__block__item {
+  width: 196px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.item__cirle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 122px;
+  height: 122px;
+  background: #23C7EC;
+  font-weight: 500;
+  font-size: 57px;
+  line-height: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+.item__text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #383A4C;
+}
+
+@media (max-width: 1024px) {
+  .benefits__title {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 23px;
+  }
+
+  .benefits__subtitle {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 33px;
+  }
+
+  .benefits__subtitle::before,
+  .benefits__subtitle::after {
+    width: 40px;
+  }
+
+  .benefits__text {
+    width: 70%;
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .benefits__block {
+    width: 870px;
+  }
+
+  .benefits__block__item {
+    width: 180px;
+  }
+
+  .item__cirle {
+    width: 104px;
+    height: 104px;
+  }
+
+  .item__text {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 920px) {
+  .benefits__block {
+    width: 70%;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 620px) {
+  .benefits__title {
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 20px;
+  }
+
+  .benefits__subtitle {
+    font-size: 28px;
+    line-height: 23px;
+    margin-bottom: 30px;
+  }
+
+  .benefits__block {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item__cirle {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+@media (max-width: 320px) {
+  .benefits {
+    padding: 30px 0 60px;
+  }
+
+  .benefits__title {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 15px;
+  }
+
+  .benefits__subtitle {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 26px;
+  }
+
+  .benefits__subtitle::before,
+  .benefits__subtitle::after {
+    width: 19.73px;
+    height: 1px;
+  }
+
+  .benefits__text {
+    width: 286.05px;
+    font-size: 12px;
+    line-height: 17px;
+    margin-bottom: 40px;
+  }
+
+  .wrapper {
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+
+  .benefits__block {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 1220px;
+    gap: 20px;
+    justify-content: space-between;
+  }
+
+  .benefits__block__item {
+    min-width: 290px;
+    position: relative;
+  }
+
+  .item__cirle {
+    width: 104px;
+    height: 104px;
+  }
+
+  .item__text {
+    width: 166.57px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .arrow_left {
+    display: block;
+    width: 83px;
+    height: 83px;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    background-image: url('../image/arrow.png');
+    background-size: cover;
+  }
+
+  .arrow_right {
+    display: block;
+    width: 83px;
+    height: 83px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    transform: rotate(180deg);
+    background-image: url('../image/arrow.png');
+    background-size: cover;
+  }
+
+  .arrow_left:hover {
+    background: url('../image/arrow_hover.png');
+    transform: rotate(-180deg);
+    top: 41px;
+    left: -9px;
+  }
+
+  .arrow_right:hover {
+    background: url('../image/arrow_hover.png');
+    transform: rotate(0deg);
+    top: 44px;
+    right: -8px;
+  }
+}
