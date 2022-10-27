@@ -7,10 +7,11 @@
 .questions__title {
   font-weight: 700;
   font-size: 35px;
-  line-height: 41px;
+  line-height: 43px;
   text-align: center;
   color: #FFFFFF;
   margin-bottom: 17px;
+  margin-left: -25px;
 }
 
 .questions__subtitle {
@@ -44,12 +45,12 @@ input {
 }
 
 input[type="email"] {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .form__btn {
-  padding: 11px 38px;
-  margin-bottom: 50px;
+  padding: 12px 38px;
+  margin-bottom: 30px;
 }
 
 .assent__text {
@@ -82,12 +83,12 @@ input[type="email"] {
   input {
     width: 377px;
     height: 39px;
-    font-size: 14px;
+    font-size: 19px;
     line-height: 16px;
   }
 
   .form__btn {
-    margin-bottom: 30px;
+    margin-bottom: 7px;
   }
 
   .assent__text {
@@ -114,6 +115,11 @@ input[type="email"] {
     line-height: 23px;
   }
 
+  .questions__subtitle {
+    font-size: 12px;
+    line-height: 10px;
+    margin-bottom: 37px;
+  }
 
   .questions__form {
     font-size: 14px;
@@ -126,6 +132,12 @@ input[type="email"] {
     font-size: 14px;
     line-height: 16px;
   }
+
+  .form__btn {
+    padding: 9px 30px;
+    margin-bottom: 15px;
+  }
+
   .assent__text {
     font-size: 11px;
     line-height: 13px;

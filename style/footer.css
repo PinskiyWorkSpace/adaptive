@@ -1,5 +1,5 @@
 .footer {
-  padding: 45px 0;
+  padding: 43px 0 ;
   background: #2F324B;
 }
 
@@ -59,7 +59,7 @@
 
 @media (max-width: 1024px) {
   .footer {
-    padding: 49px 0;
+    padding: 36px 0 49px 0;
   }
 
   .logo__img {
@@ -81,6 +81,7 @@
     font-size: 21px;
     line-height: 25px;
     margin-bottom: 4px;
+    margin-left: 3px;
   }
 
   .tel__text__link {
@@ -92,7 +93,7 @@
 
 @media (max-width: 320px) {
   .footer {
-    padding: 29px 0 76px 0;
+    padding: 24px 0 67px 0;
   }
 
   .footer__wrapper {
@@ -111,7 +112,7 @@
   }
 
   .made__text {
-    width: 350px;
+    width: 320px;
     height: 47px;
     position: absolute;
     margin-left: -15px;

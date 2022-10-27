@@ -1,5 +1,5 @@
 .benefits {
-  padding: 70px 0;
+  padding: 70px 0 71px 0;;
   background: #F9F9F9;
 }
 
@@ -9,7 +9,7 @@
   line-height: 41px;
   text-align: center;
   color: #383A4C;
-  margin-bottom: 25px;
+  margin-bottom: 16px;
 }
 
 .benefits__subtitle {
@@ -18,7 +18,7 @@
   line-height: 26px;
   text-align: center;
   color: #383A4C;
-  margin-bottom: 35px;
+  margin-bottom: 22px;
 }
 
 .benefits__subtitle::before,
@@ -40,7 +40,7 @@
   line-height: 25px;
   text-align: center;
   color: #383A4C;
-  margin-bottom: 50px;
+  margin-bottom: 58px;
 }
 
 .benefits__block {
@@ -84,16 +84,19 @@
 }
 
 @media (max-width: 1024px) {
+  .benefits {
+    padding: 71px 0 73px 0
+  }
   .benefits__title {
     font-size: 32px;
     line-height: 38px;
-    margin-bottom: 23px;
+    margin-bottom: 13px;
   }
 
   .benefits__subtitle {
     font-size: 20px;
     line-height: 23px;
-    margin-bottom: 33px;
+    margin-bottom: 17px;
   }
 
   .benefits__subtitle::before,
@@ -118,6 +121,7 @@
   .item__cirle {
     width: 104px;
     height: 104px;
+    margin-bottom: 25px;
   }
 
   .item__text {
@@ -161,19 +165,19 @@
 
 @media (max-width: 320px) {
   .benefits {
-    padding: 30px 0 60px;
+    padding: 30px 0 64px;
   }
 
   .benefits__title {
     font-size: 20px;
     line-height: 23px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
   }
 
   .benefits__subtitle {
     font-size: 16px;
     line-height: 19px;
-    margin-bottom: 26px;
+    margin-bottom: 13px;
   }
 
   .benefits__subtitle::before,
@@ -223,8 +227,8 @@
     width: 83px;
     height: 83px;
     position: absolute;
-    top: 45px;
-    left: 0;
+    top: 52px;
+    left: -15px;
     background-image: url('../image/arrow.png');
     background-size: cover;
   }
@@ -234,8 +238,8 @@
     width: 83px;
     height: 83px;
     position: absolute;
-    top: 40px;
-    right: 0;
+    top: 50px;
+    right: -15px;
     transform: rotate(180deg);
     background-image: url('../image/arrow.png');
     background-size: cover;
